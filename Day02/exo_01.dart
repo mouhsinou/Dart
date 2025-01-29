@@ -24,7 +24,6 @@ void protocoleAlpha(String message) {
   List<String> mots = message.split(' ');
   print('Liste des mots: $mots');
 
-
   Map<String, int> frequenceMots = {};
   for (String mot in mots) {
     String motNettoye = mot.replaceAll(RegExp(r'[^\w\s]'), '').toLowerCase();
