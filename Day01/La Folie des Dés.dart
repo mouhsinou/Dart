@@ -7,7 +7,6 @@ int lancerDe() {
 
 // Fonction qui effectue plusieurs lancers et affiche les résultats
 void lancerDeMultiple(int nombreDeLancers) {
-  print("Lancer de $nombreDeLancers dés :");
   for (int i = 0; i < nombreDeLancers; i++) {
     print("Lancer ${i + 1} : ${lancerDe()}");
   }
@@ -15,7 +14,6 @@ void lancerDeMultiple(int nombreDeLancers) {
 
 // Fonction qui relance le dé si le résultat est inférieur à 3
 void lancerDeAvecConditions(int nombreDeLancers) {
-  print("Lancer de dés avec conditions :");
   for (int i = 0; i < nombreDeLancers; i++) {
     int resultat;
     do {
@@ -44,8 +42,9 @@ void lancerDeEnBoucle(int nombreDeLancers) {
   print("Nombre total de lancers : $essais");
 }
 
+
 void main() {
-  print("=== Test des fonctions ===\n");
+  print("=== Bienvenu au jeu de lancé de Dé  de Moussinou ===\n");
 
   lancerDeMultiple(5);
   print("\n");
