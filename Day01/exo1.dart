@@ -21,6 +21,7 @@ double calculDiagonalePave(double longueur, double largeur, double hauteur) {
 }
 
 void main() {
+  print("Bienvenu à superCal de Moussinou");
   double longueur = 5.0;
   double largeur = 3.0;
   double hauteur = 4.0;
